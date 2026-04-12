@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GameScope</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+  <h1>🎮 GameScope</h1>
+
+ 
+  <button id="theme-toggle">Toggle Theme</button>
+
+
+  <input type="text" id="search-input" placeholder="Search games...">
+
+  
+  <select id="genre-filter">
+    <option value="">All Genres</option>
+    <option value="action">Action</option>
+    <option value="adventure">Adventure</option>
+    <option value="rpg">RPG</option>
+    <option value="shooter">Shooter</option>
+  </select>
+
+  <select id="platform-filter">
+    <option value="">All Platforms</option>
+    <option value="pc">PC</option>
+    <option value="playstation">PlayStation</option>
+    <option value="xbox">Xbox</option>
+  </select>
+
+
+  <select id="sort-option">
+    <option value="">Sort By</option>
+    <option value="rating">Rating (High to Low)</option>
+    <option value="name">Name (A-Z)</option>
+  </select>
+
+
+  <div id="game-container"></div>
+
+  <div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <span id="close-modal">&times;</span>
+    <div id="modal-body"></div>
+  </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

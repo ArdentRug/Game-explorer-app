@@ -1,51 +1,86 @@
-# Game-explorer-app
-# 🎮 Game Explorer Web App
+🎮 GameScope – Game Explorer Web App
+📌 Overview
 
-## 📌 Project Description
+GameScope is a web-based application built as part of my second semester Computer Science project. The goal of this project was to apply core JavaScript concepts in a practical way by integrating a public API and building an interactive user interface.
 
-The Game Explorer Web App is a responsive web application that allows users to explore video games using real-time data from a public API. Users can search for games, filter them based on genres and platforms, and sort them by rating or alphabetical order. The application also provides detailed information about each game, including platform availability and system requirements (when available).
+The application allows users to explore video games, view their ratings, genres, and platform availability, and interact with the data through features like search, filtering, and sorting.
 
+🎯 Purpose
 
-## 🚀 Features
+This project was designed to strengthen my understanding of:
 
-* 🔍 Search games by name
-* 🎯 Filter games by genre and platform
-* 📊 Sort games by rating and alphabetical order
-* 📱 Fully responsive design (mobile, tablet, desktop)
-* 🎮 View detailed game information
-* 💻 Display PC system requirements (if available)
+JavaScript fundamentals
+Working with APIs using fetch
+DOM manipulation
+Array Higher-Order Functions (HOFs)
+Building responsive and interactive UIs
 
+It also helped me understand how real-world applications manage and display dynamic data.
 
-## 🌐 API Used
+⚙️ Technologies Used
+HTML – Structure of the web application
+CSS – Styling and responsive layout
+JavaScript – Core logic and interactivity
+Public API – Game data fetched from the RAWG Video Games Database API
+🚀 Features
+🔍 Search
 
-This project uses the RAWG Video Games Database API to fetch real-time game data, including game details, ratings, genres, and platform information.
+Users can search for games by name in real-time using a dynamic search bar.
 
+🎯 Filtering
+Filter games by genre (Action, RPG, etc.)
+Filter games by platform (PC, PlayStation, Xbox)
 
-## 🛠️ Technologies Used
+🔃 Sorting
+Sort games by rating (high to low)
+Sort games alphabetically (A–Z)
 
-* HTML
-* CSS
-* JavaScript (ES6)
-* Fetch API
+❤️ Favorites
+Users can mark games as favorites
+Favorites are stored using localStorage and persist after refresh
 
+🌙 Dark Mode
+Toggle between light and dark themes
+User preference is saved in localStorage
 
-## 📂 Project Setup
+🎮 View Details
+Users can click “View Details” to open a modal
+Displays additional information like genres and platforms
 
-1. Clone the repository
-2. Open the project folder
-3. Open `index.html` in your browser
+📱 Responsive Design
+Works across desktop, tablet, and mobile screen sizes
 
+🧠 Key Concepts Applied
+fetch() for API integration
+Array HOFs:
+filter() for search and filtering
+sort() for sorting
+some() for nested data handling
+find() for retrieving specific game details
+Event handling (addEventListener)
+DOM manipulation
+Local storage for persistence
 
-## 📅 Project Timeline
+💡 Challenges Faced
+Handling nested API data (genres, platforms)
+Managing multiple filters together
+Debugging API and DOM-related errors
+Structuring code to keep it clean and readable
 
-* Milestone 1: Project Setup and Planning
-* Milestone 2: API Integration
-* Milestone 3: Core Features Implementation
-* Milestone 4: Final Deployment and Submission
+📈 Learning Outcomes
+Through this project, I learned how to:
 
+Work with real-world APIs
+Structure JavaScript code efficiently
+Debug errors systematically
+Build user-friendly interfaces
+Think in terms of reusable and modular functions
 
-## 📌 Notes
+🚀 Future Improvements
+Add pagination or infinite scrolling
+Display detailed system requirements for games
+Improve UI with animations
+Add user authentication
+🙌 Final Thoughts
 
-* The application uses array higher-order functions such as `map()`, `filter()`, and `sort()` for data manipulation.
-* Some games may not have complete system requirement data available from the API.
-
+This project was a great hands-on experience that helped me connect theoretical concepts with practical implementation. It gave me confidence in building real-world web applications and improved my problem-solving skills significantly.
